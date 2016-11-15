@@ -28,6 +28,24 @@
     .btn-default{
       background-color: #BBB
     }
+    
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      /* Set the fixed height of the footer here */
+      height: 60px;
+    }
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+    body {
+      /* Margin bottom by footer height */
+      margin-bottom: 60px;
+    } 
+      
+    
   </style>
 
 <!--[if lt IE 9]>
@@ -70,11 +88,14 @@
     </div>
   </div>
 
-  <footer>
+  <div class="footer">
     <!--
       <p>This project is maintained by <a href="https://github.com/hostelbybed">hostelbybed</a></p>
       <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
     -->
+    <small>
+      by <a href="http://linkedin.com/in/tomcounsell">Tom Counsell</a>
+    </small>
   </footer>
   
 <!--  <script src="javascripts/scale.fix.js"></script>-->
